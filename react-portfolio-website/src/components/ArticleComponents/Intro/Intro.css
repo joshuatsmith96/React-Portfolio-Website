@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
 .Intro{
     display: flex;
     justify-content: center;
@@ -9,8 +11,13 @@
 
 .Intro h1{
     flex: 1;
-    color: rgb(181, 219, 76);
+    color: black;
     margin: 0px;
+}
+
+.Intro h3{
+    color: rgb(135, 160, 192);
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 .divider{
