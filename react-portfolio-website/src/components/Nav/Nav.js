@@ -7,7 +7,7 @@ import MobileNav from './MobileNav';
 const Nav = () => {
     return (
         <div className="Nav">
-            <h3 className="logo">Joshua's Portfolio</h3>
+            <h2 className="logo">Joshua's Portfolio</h2>
             <NavList />
             <MobileNav />
         </div>

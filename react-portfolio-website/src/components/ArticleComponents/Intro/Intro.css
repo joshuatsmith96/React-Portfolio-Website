@@ -12,12 +12,12 @@
 .Intro h1{
     flex: 1;
     color: black;
-    margin: 0px;
+    margin-bottom: 10px;
 }
 
-.Intro h3{
+.Intro h2{
     color: rgb(135, 160, 192);
-    font-family: 'Hachi Maru Pop', cursive;
+    margin-bottom: 200px;
 }
 
 .divider{
@@ -38,9 +38,34 @@
     flex: 1;
 }
 
+.IntroIcons{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    margin-top: 60px;
+}
+
+.Icons{
+    flex: 1;
+}
+
+.Icons p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.Icons img{
+    width: 150px;
+    height: 150px;
+}
 @media all and (max-width: 926px) {
     .Intro{
         display: block;
+        height: 850px;
+    }
+
+    .Intro h2{
+        margin-bottom: 20px;
     }
 
     .divider{

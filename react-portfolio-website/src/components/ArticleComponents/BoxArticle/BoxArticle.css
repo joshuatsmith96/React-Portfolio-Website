@@ -1,5 +1,4 @@
 .Box{
-    height: 320px;
     flex: 1;
     flex-direction: row;
     margin: 10px;
@@ -7,7 +6,13 @@
     box-shadow: 1px 1px 5px 1px;
 }
 
+.Box h1{
+    padding: 0px;
+    margin: 0px;
+}
+
 .BoxArticle{
     display: flex;
     background-color: rgb(247, 245, 245);
+    padding-top: 100px;
 }

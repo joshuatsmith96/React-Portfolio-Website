@@ -1,0 +1,14 @@
+.Article{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.Article h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.Article p{
+    font-size: 30px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Intro.css';
+import IntroIcons from './IntroIcons'
 
 
 const Intro = (props) => {
@@ -13,7 +14,8 @@ const Intro = (props) => {
             </div>
             <div className="dividerText">
                 <h1>Joshua Smith</h1>
-                <h3>Aspiring Web Developer</h3>
+                <h2>The Web Developer your company needs!</h2>
+                <IntroIcons />
             </div>
         </div>
     )
