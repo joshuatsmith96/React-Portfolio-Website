@@ -62,6 +62,23 @@
     display: none;
 }
 
+.MobileNavList{
+    position: fixed;
+    margin-top: 39px;
+    height: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+    transition: 0.3s;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.MobileNavList li{
+    font-size: 50px;
+    color: black;
+}
+
 
 /************************* MOBILE *************************/
 /* BREAKPOINTS */
@@ -103,6 +120,7 @@
 }
 
 @media all and (max-width: 877px) {
+
     .MobileNav{
         flex: 1;
     }
@@ -117,7 +135,20 @@
     }
 }
 
+@media all and (max-width: 731px){
+
+}
+
 @media all and (max-width: 707px) {
+    .MobileNavList{
+        margin-top: 3px;
+
+    }
+
+    .MobileNavList ul{
+        margin-top: 14px;
+    }
+
     .Nav{
         display: flex;
     }
@@ -131,7 +162,17 @@
     }
 }
 
+@media all and (max-width: 541px){
+    .MobileNavList{
+        margin-top: 30px;
+    }
+}
+
 @media all and (max-width: 420px) {
+    .MobileNavList{
+        margin-top: 30px;
+    }
+
     .bar{
         margin-left: 30%;
     }
@@ -139,9 +180,23 @@
     .logo{
         margin-right: 0px;
     }
+
+    .Intro{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 376px){
+    .MobileNavList{
+        margin-top: 28px;
+    }
 }
 
 @media all and (max-width: 320px){
+    .MobileNavList{
+        margin-top: 21px;
+    }
+
     .logo{
         margin-right: 0px;
         font-size: 19px;

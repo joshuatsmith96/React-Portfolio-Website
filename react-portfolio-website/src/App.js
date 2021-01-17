@@ -8,6 +8,7 @@ import About from './components/About/About';
 //Components
 import NavSpacer from './components/Nav/NavSpacer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import MobileNavList from './components/Nav/MobileNavList';
 
 export class App extends Component {
 
@@ -18,6 +19,7 @@ export class App extends Component {
         <div className="App">
           <Nav />
           <NavSpacer />
+          <MobileNavList />
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/projects" exact component={Projects}/>
