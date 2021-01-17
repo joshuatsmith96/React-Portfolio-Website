@@ -1,0 +1,5 @@
+Author: Joshua Smith
+Date: 1/16/2021
+
+Make sure to add <NavSpacer /> to the main app right after the <Nav /> component.
+This will ensure you have sufficient spacing between your nav and content.
