@@ -1,18 +1,13 @@
 .SkillsArticleContainer{
     width: 100%;
-    padding: 10px;
     margin-top: 200px;
     background-color: rgb(247, 245, 245);
-}
-
-.SkillsArticle{
-    padding: 10px;
-    filter: blur(0px);
-    padding: 10px;
+    padding-bottom: 14px;
 }
 
 .SkillsArticle h1{
     font-size: 60px;
+    margin-bottom: 40px;
 }
 
 .row{
@@ -27,7 +22,8 @@
     padding: 10px;
     background-color:white;
     border-radius: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
+    box-shadow: 1px 1px 10px 1px;
 }
 
 .SkillCard h2{
@@ -37,6 +33,7 @@
 .SkillCard p{
     font-size: 23px;
     padding: 5px;
+    font-weight: bold;
 }
 
 .progressBar{
@@ -50,4 +47,18 @@
     height: 100%;
     border-radius: 20px;
     background-color: green;
+}
+
+@media all and (max-width: 737px) {
+    .row{
+        display: block;
+    }
+
+    .SkillCard{
+        margin-bottom: 100px;
+    }
+
+    .SkillsArticleContainer{
+        background-color: white;
+    }
 }

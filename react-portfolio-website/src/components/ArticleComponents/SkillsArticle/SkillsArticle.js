@@ -22,7 +22,7 @@ const SkillsArticle = () => {
                 <div className="row">
                     <SkillCard Percent={57} Header={"React"} Image={ReactIcon}/>
                     <SkillCard Percent={40} Header={"Boot Strap"} Image={PictureThing}/>
-                    <SkillCard Percent={24} Header={"Other"} Image={PictureThing}/>
+                    <SkillCard Percent={24} Header={"ASP.NET"} Image={PictureThing}/>
                 </div>
             </div>
         </div>

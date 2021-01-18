@@ -11,7 +11,7 @@ const SkillCard = (props) => {
             <img src={props.Image} width="200px" height="200px"/>
             <div className="progressBar">
                 <div style={{width:percent + "%"}} className="progress"></div>
-                <p>{percent + "%"}</p>
+                <p>{percent + "% Proficient"}</p>
             </div>
         </div>
     )
