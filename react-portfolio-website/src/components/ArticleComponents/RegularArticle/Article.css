@@ -17,12 +17,14 @@
     margin-top: 40px;
     padding: 20px;
     border: solid;
+    background-color: rgb(135, 160, 192);
+    color: white;
     flex: 0;
+    transition: 0.3s;
 }
 
 .Article h2:hover{
-    background-color: rgb(135, 160, 192);
-    color: white;
+    background-color: rgb(128, 149, 177);
 }
 
 .Article p{

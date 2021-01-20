@@ -7,6 +7,7 @@ class MobileNavIcon extends Component {
 
 
     handleClick = () =>{
+
         if (this.i == 0){
             let mobnav = document.getElementsByClassName("MobileNavList")
             let nav = document.getElementsByClassName("Nav")
@@ -18,6 +19,7 @@ class MobileNavIcon extends Component {
             let mobnav = document.getElementsByClassName("MobileNavList")
             let nav = document.getElementsByClassName("Nav")
             mobnav[0].style.height="0px"
+            mobnav[0].style.boxShadow="none"
             nav[0].style.boxShadow="1px 1px 5px 1px"
             this.i--
         }
@@ -25,6 +27,7 @@ class MobileNavIcon extends Component {
 
 
     render() {
+
         return (
                 <div className="MobileNavIcon" onClick={this.handleClick}>
                     <div className="bar"></div>

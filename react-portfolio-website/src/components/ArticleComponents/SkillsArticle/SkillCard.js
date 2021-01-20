@@ -3,10 +3,11 @@ import './SkillsArticle.css';
 
 const SkillCard = (props) => {
 
-    const percent = props.Percent
+    const percent = props.Percent;
 
     return (
         <div className="SkillCard">
+            <div className="SkillInfo"></div>
             <h2>{props.Header}</h2>
             <img src={props.Image} width="200px" height="200px"/>
             <div className="progressBar">
