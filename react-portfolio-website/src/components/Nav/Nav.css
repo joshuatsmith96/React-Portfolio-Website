@@ -86,7 +86,11 @@
 
 /************************* MOBILE *************************/
 /* BREAKPOINTS */
-@media all and (max-width: 1210px) {
+@media all and (max-width: 1220px) {
+    .MobileNavList ul{
+        margin-top: 50px;
+    }
+
     .NavList{
         display: none;
     }

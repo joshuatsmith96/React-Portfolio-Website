@@ -10,12 +10,17 @@ class Home extends Component {
             <div>
                 <Intro/>
                 <Article 
-                Header="A Little Bit About Me" 
+                Header="A Little Bit About Joshua" 
                 Text="My name is Joshua Smith, and I am an aspiring Front-End Web Developer. I will be graduating with an A.A.S in Web Development,
                 and an A.A.S in Software Development, in March of 2022. "
                 color="red"/> 
                 <SkillsArticle
                 Header="Skills"/>
+                <Article 
+                Header="Why Hire Joshua" 
+                Text="My name is Joshua Smith, and I am an aspiring Front-End Web Developer. I will be graduating with an A.A.S in Web Development,
+                and an A.A.S in Software Development, in March of 2022. "
+                color="red"/> 
             </div>
         )
     }
