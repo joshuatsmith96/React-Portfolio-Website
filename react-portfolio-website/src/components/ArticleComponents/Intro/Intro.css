@@ -40,6 +40,10 @@
     flex: 1;
 }
 
+.dividerText h2{
+    color: rgb(135, 160, 192);
+}
+
 .IntroIcons{
     display: flex;
     flex-direction: row;
