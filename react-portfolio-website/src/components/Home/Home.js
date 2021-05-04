@@ -10,9 +10,12 @@ class Home extends Component {
             <div>
                 <Intro/>
                 <Article 
-                Header="About Me" 
-                Text="Incididunt incididunt Lorem tempor deserunt. Quis labore aliquip aute consequat quis do aliqua culpa incididunt tempor sunt reprehenderit Lorem. Commodo eu qui incididunt reprehenderit aute. Esse labore mollit consequat veniam qui velit adipisicing reprehenderit dolore velit minim. Do deserunt ut incididunt elit adipisicing occaecat aute enim. Elit officia in aliqua id do irure irure velit laboris. Tempor qui tempor aute excepteur. Click Here To Learn More"/> 
-                <SkillsArticle />
+                Header="A Little Bit About Me" 
+                Text="My name is Joshua Smith, and I am an aspiring Web Developer. I will be graduating with an A.A.S in Website Development,
+                and an A.A.S in Software Development in March of 2022. "
+                color="red"/> 
+                <SkillsArticle
+                Header="Skills"/>
             </div>
         )
     }

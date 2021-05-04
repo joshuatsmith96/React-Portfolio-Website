@@ -1,0 +1,29 @@
+.SkillsIcon{
+    color: white;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.SkillsIcon:hover{
+    color: rgb(189, 213, 245);
+}
+
+.SkillsIcon h2{
+    margin-bottom: 10px;
+}
+
+.imageStyle img{
+    border: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    transition: .3s;
+}
+
+.imageStyle img:hover{
+    width: 175px;
+    height: 175px;
+}

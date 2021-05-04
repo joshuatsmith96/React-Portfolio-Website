@@ -1,47 +1,64 @@
-import React from 'react';
+import React from 'react'
 import './SkillsArticle.css';
-import SkillCard from './SkillCard';
-import PictureThing from '../../Images/checkmark.png';
-//Importing Images
-import HTMLIcon from '../../Images/Icons/html.png';
-import CSSIcon from '../../Images/Icons/css.png';
-import JSIcon from '../../Images/Icons/javascript.png';
-import ReactIcon from '../../Images/react.png';
-import BootIcon from '../../Images/Icons/bsimage.png';
-import WindowIcon from '../../Images/Icons/word.png';
-import ExcelIcon from '../../Images/Icons/excel.png';
-import AccessIcon from '../../Images/Icons/access.png';
-import PPIcon from '../../Images/Icons/powerpoint.png';
-import GitIcon from '../../Images/Icons/github.png';
-import AspIcon from '../../Images/Icons/asp.png';
+import SkillsIcon from '../SkillsArticle/SkillsIcon';
+import htmlImage from '../../Images/Icons/html.png';
+import cssImage from '../../Images/Icons/css.png';
+import javascriptImage from '../../Images/Icons/javascript.png';
+import wordImage from '../../Images/Icons/word.png';
+import ppImage from '../../Images/Icons/powerpoint.png';
+import excelImage from '../../Images/Icons/excel.png';
+import accessImage from '../../Images/Icons/access.png';
+import aspImage from '../../Images/Icons/asp.png';
+import gitImage from '../../Images/Icons/github.png';
+import reactImage from '../../Images/react.png';
 
-const SkillsArticle = () => {
+const SkillsArticle = (props) => {
+
     return (
-        <div className="SkillsArticleContainer">
-            <div className="SkillsArticle">
-                <h1>Skills</h1>
-                <h2 className="SkillTitle">Web Development</h2>
-                <div className="row">
-                    <SkillCard Percent={95} Header={"HTML5"} Image={HTMLIcon}/>
-                    <SkillCard Percent={86} Header={"CSS3"} Image={CSSIcon}/>
-                    <SkillCard Percent={73} Header={"JavaScript"} Image={JSIcon}/>
-                </div>
+        <div className="SkillsArticle">
+            <h1>{props.Header}</h1>
+            <div className="Skills">
+                <SkillsIcon
+                Header="HTML"
+                Image={htmlImage}
+                ImageAlt="html image"/>
+                <SkillsIcon
+                Header="CSS"
+                Image={cssImage}
+                ImageAlt="css image"/>
+                <SkillsIcon
+                Header="Javascript"
+                Image={javascriptImage}
+                ImageAlt="javascript image"/>
+                <SkillsIcon
+                Header="MS Word"
+                Image={wordImage}
+                ImageAlt="word image"/>
+                <SkillsIcon
+                Header="MS Power Point"
+                Image={ppImage}
+                ImageAlt="Power Point image"/>
+                <SkillsIcon
+                Header="MS Excel"
+                Image={excelImage}
+                ImageAlt="Excel image"/>
+                <SkillsIcon
+                Header="MS Access"
+                Image={accessImage}
+                ImageAlt="Access image"/>
+                <SkillsIcon
+                Header="ASP.NET"
+                Image={aspImage}
+                ImageAlt=".net framework image"/>
+                <SkillsIcon
+                Header="GitHub"
+                Image={gitImage}
+                ImageAlt="git hub image"/>
+                <SkillsIcon
+                Header="React"
+                Image={reactImage}
+                ImageAlt="react image"/>
 
-                <div className="row">
-                    <SkillCard Percent={57} Header={"React"} Image={ReactIcon}/>
-                    <SkillCard Percent={40} Header={"Boot Strap"} Image={BootIcon.png}/>
-                    <SkillCard Percent={24} Header={"ASP.NET"} Image={AspIcon}/>
-                </div>
-                <h2 className="SkillTitle">Microsoft / Other</h2>
-                <div className="row">
-                    <SkillCard Percent={95} Header={"Word"} Image={WindowIcon}/>
-                    <SkillCard Percent={89} Header={"PowerPoint"} Image={PPIcon}/>
-                    <SkillCard Percent={80} Header={"Excel"} Image={ExcelIcon}/>
-                </div>
-                <div className="row">
-                    <SkillCard Percent={70} Header={"Access"} Image={AccessIcon}/>
-                    <SkillCard Percent={70} Header={"GitHub"} Image={GitIcon}/>
-                </div>
             </div>
         </div>
     )

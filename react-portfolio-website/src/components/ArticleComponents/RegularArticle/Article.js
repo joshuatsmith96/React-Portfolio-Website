@@ -14,7 +14,7 @@ const Article = (props) => {
             <h1>{props.Header}</h1>
             <p>{props.Text}</p>
             <Link style={newStyle} to="/about">
-                <h2>More About Me</h2>
+                <h2>Learn More About Josh</h2>
             </Link>
         </div>
     )

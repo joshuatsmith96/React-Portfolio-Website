@@ -7,7 +7,7 @@ import LightIcon from '../../Images/lamp.png';
 const IntroIcons = () => {
     return (
         <div className="IntroIcons">
-            <Icons Image={PhoneIcon} ImageText="Responsive Design"/>
+            <Icons Image={PhoneIcon} ImageText="Responsive Designer"/>
             <Icons Image={LightIcon} ImageText="Intuitive Thinker"/>
             <Icons Image={ReactIcon} ImageText="React Developer"/>
         </div>

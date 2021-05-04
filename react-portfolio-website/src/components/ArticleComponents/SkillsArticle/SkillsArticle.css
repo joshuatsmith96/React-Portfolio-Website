@@ -1,78 +1,32 @@
-.SkillsArticleContainer{
-    width: 100%;
-    background-color: rgb(247, 245, 245);
-    padding-bottom: 14px;
+.SkillsArticle{
+    background-color: rgb(77, 76, 76);
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 .SkillsArticle h1{
     font-size: 60px;
-    margin-bottom: 40px;
-}
-
-.row{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-.row2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-.SkillCard{
-    padding: 10px;
-    background-color:white;
-    border-radius: 30px;
-    padding-bottom: 35px;
-    box-shadow: 1px 1px 10px 1px;
-    overflow: hidden;
-}
-
-.SkillTitle{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
-
-.SkillCard h2{
     margin-bottom: 20px;
+    color: white;
 }
 
-.SkillCard p{
-    font-size: 23px;
-    padding: 5px;
-    font-weight: bold;
+.Skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
-.progressBar{
-    margin-top: 20px;
-    padding: 20px;
-    height: 20px;
-    border-radius: 20px;
-}
-
-.progress{
-    height: 100%;
-    border-radius: 20px;
-    background-color: green;
-}
-
-@media all and (max-width: 737px) {
-    .row{
-        display: block;
+@media all and (max-width: 1220px) {
+    .Skills{
+        grid-template-columns: auto auto auto;
     }
+}
 
-    .SkillCard{
-        margin-bottom: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .SkillsArticleContainer{
-        background-color: white;
+@media all and (max-width: 697px){
+    .Skills{
+        grid-template-columns: auto auto;
     }
 }
