@@ -27,3 +27,19 @@
     width: 175px;
     height: 175px;
 }
+
+@media all and (max-width: 500px) {
+    .imageStyle img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .SkillsIcon h2{
+        font-size: 20px;
+    }
+
+    .imageStyle img:hover{
+        width: 75px;
+        height: 75px;
+    }
+}
