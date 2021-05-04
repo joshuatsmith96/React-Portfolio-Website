@@ -7,7 +7,7 @@ const NavList = () => {
     
     const navStyle={
         color: 'white',
-        textDecoration: "none"
+        textDecoration: "none",
     };
 
 
