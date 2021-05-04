@@ -11,7 +11,7 @@ class MobileNavIcon extends Component {
         if (this.i == 0){
             let mobnav = document.getElementsByClassName("MobileNavList")
             let nav = document.getElementsByClassName("Nav")
-            mobnav[0].style.height="65%"
+            mobnav[0].style.height="40%"
             mobnav[0].style.boxShadow="1px 1px 5px 1px"
             nav[0].style.boxShadow="none"
             this.i++

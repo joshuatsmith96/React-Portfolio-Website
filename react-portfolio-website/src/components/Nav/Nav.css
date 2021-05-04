@@ -152,6 +152,16 @@
     }
 }
 
+@media all and (max-width: 768px){
+    .MobileNavList{
+        margin-top: 66px;
+    }
+
+    .MobileNavList ul{
+        margin-top: 20px;
+    }
+}
+
 @media all and (max-width: 732px){
     .MobileNavList{
         margin-top: 0px;
@@ -215,9 +225,11 @@
     }
 }
 
-@media all and (max-width: 376px){
+
+
+@media all and (max-width: 360px){
     .MobileNavList{
-        margin-top: 45px;
+        margin-top: 28px;
     }
 }
 
