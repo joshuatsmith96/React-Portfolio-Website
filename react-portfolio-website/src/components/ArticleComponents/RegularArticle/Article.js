@@ -9,15 +9,35 @@ const Article = (props) => {
         textDecoration: "none"
     };
 
-    return (
-        <div className="Article">
-            <h1>{props.Header}</h1>
-            <p>{props.Text}</p>
-            <Link style={newStyle} to="/about">
-                <h2>Learn More About Josh</h2>
-            </Link>
-        </div>
-    )
+    const Button = props.Button;
+
+    if(Button=="true"){
+        return (
+            <div className="Article">
+                <h1>{props.Header}</h1>
+                <p>{props.Text}</p>
+                <Link style={newStyle} to="/about">
+                    <h2>Learn More About Josh</h2>
+                </Link>
+            </div>
+        )
+    } else if (Button=="False"){
+        return (
+            <div className="Article">
+                <h1>{props.Header}</h1>
+                <p>{props.Text}</p>
+            </div>
+        )
+    } else {
+        return (
+            <div className="Article">
+                <h1>{props.Header}</h1>
+                <p>{props.Text}</p>
+            </div>
+        )
+    }
+
+    
 }
 
 export default Article;

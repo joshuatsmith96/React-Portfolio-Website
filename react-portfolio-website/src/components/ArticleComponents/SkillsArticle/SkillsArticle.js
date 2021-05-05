@@ -12,6 +12,7 @@ import aspImage from '../../Images/Icons/asp.png';
 import gitImage from '../../Images/Icons/github.png';
 import reactImage from '../../Images/react.png';
 import sqlImage from '../../Images/Icons/sql.png';
+import pythonImage from '../../Images/Icons/python.png';
 
 const SkillsArticle = (props) => {
 
@@ -63,6 +64,10 @@ const SkillsArticle = (props) => {
                 Header="SQL Server"
                 Image={sqlImage}
                 ImageAlt="SQL Server image"/>
+                <SkillsIcon
+                Header="Python"
+                Image={pythonImage}
+                ImageAlt="Python image"/>
 
             </div>
         </div>

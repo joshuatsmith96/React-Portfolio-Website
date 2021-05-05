@@ -1,12 +1,12 @@
 .SkillsArticle{
-    background-color: rgb(204, 204, 204);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(230, 230, 230), rgb(255, 255, 255));
     margin-top: 50px;
 }
 
 .SkillsArticle h1{
     font-size: 60px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 .Skills{

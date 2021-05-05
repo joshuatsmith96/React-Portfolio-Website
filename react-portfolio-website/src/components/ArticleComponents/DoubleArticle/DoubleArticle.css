@@ -1,0 +1,30 @@
+.DoubleArticle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.DoubleArticle h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.DoubleArticle p{
+    font-size: 30px;
+}
+
+.da1{
+    flex: 1;
+    padding: 30px;
+}
+
+.da2{
+    flex: 1;
+    padding: 30px;
+}
+
+@media all and (max-width: 1120px) {
+    .DoubleArticle{
+        flex-direction: column;
+    }
+}
