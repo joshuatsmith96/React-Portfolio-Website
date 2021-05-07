@@ -13,7 +13,7 @@ const AboutIntro = (props) => {
             </div>
             <div className="aboutDividerText">
                 <h1>About Joshua</h1>
-                <p>My name is Joshua Smith, and I am a dumb ass.</p>
+                <p>Learn more about Joshua Smith</p>
             </div>
         </div>
     )
