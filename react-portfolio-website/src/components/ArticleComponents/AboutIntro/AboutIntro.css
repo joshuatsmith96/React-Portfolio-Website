@@ -14,11 +14,11 @@
     flex: 1;
     color: black;
     margin-bottom: 10px;
+    font-size: 60px;
 }
 
-.AboutIntro h2{
-    color: black;
-    margin-bottom: 200px;
+.AboutIntro p{
+    font-size: 30px;
 }
 
 .aboutDivider{
@@ -45,14 +45,6 @@
 
 .aboutDividerText h2{
     color: rgb(135, 160, 192);
-}
-
-.AboutIntroIcons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 10px;
-    margin-top: 60px;
 }
 
 .Icons{
