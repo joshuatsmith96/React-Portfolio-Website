@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import ProjectIntro from '../ArticleComponents/ProjectIntro/AboutIntro';
+import React, { Component } from 'react'
 
 class Projects extends Component {
     render() {
         return (
             <div>
-                <ProjectIntro />
+                <h1>Projects</h1>
             </div>
         )
     }
