@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
+import CheckClicked from './CheckClicked';
 
 const MobileNavList = () => {
 
@@ -10,20 +11,19 @@ const MobileNavList = () => {
     };
 
 
-
     return (
         <div className="MobileNavList">
             <ul>
                 <Link style={navStyle} to="/">
-                    <li>Home</li>
+                    <li onClick={CheckClicked}>Home</li>
                 </Link>
 
                 <Link style={navStyle} to="/projects">
-                    <li>Projects</li>
+                    <li onClick={CheckClicked}>Projects</li>
                 </Link>
                 
                 <Link style={navStyle} to="/about">
-                    <li>About</li>
+                    <li onClick={CheckClicked}>About</li>
                 </Link>
             </ul>
         </div>
