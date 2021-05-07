@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+.ProjectIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: white;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.ProjectIntro h1{
+    flex: 1;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.ProjectIntro p{
+    font-size: 30px;
+}
+
+.projectDivider{
+    flex: 1;
+    background-color: rgb(51, 51, 51);
+    height: 100%;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    transition: .3s;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.projectDivider:hover{
+    
+}
+
+.projectDividerText{
+    flex: 1;
+}
+
+.projectDividerText h2{
+    color: rgb(135, 160, 192);
+}
+
+.Icons{
+    flex: 1;
+}
+
+.Icons p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.Icons img{
+    width: 150px;
+    height: 150px;
+}
+@media all and (max-width: 926px) {
+    .ProjectIntro{
+        display: block;
+        height: 850px;
+    }
+
+    .ProjectIntro h2{
+        margin-bottom: 20px;
+    }
+
+    .projectDivider{
+        border-radius: 0px;
+        border-bottom-right-radius: 300px;
+        border-bottom-left-radius: 300px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 415px){
+    .ProjectIntroIcons{
+        justify-content: space-around;
+    }
+
+    .projectDivider{
+        border-radius: 0px;
+        border-bottom-right-radius: 200px;
+        border-bottom-left-radius: 200px;
+        height: 250px;
+    }
+
+    .projectDividerText{
+        padding: 20px;
+    }
+
+    .ProjectIntro{
+        height: 600px;
+    }
+}
