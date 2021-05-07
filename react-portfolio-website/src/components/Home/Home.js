@@ -3,6 +3,7 @@ import './Home.css';
 import Intro from '../ArticleComponents/Intro/Intro';
 import Article from '../ArticleComponents/RegularArticle/Article';
 import SkillsArticle from '../ArticleComponents/SkillsArticle/SkillsArticle';
+import DoubleArticle from '../ArticleComponents/DoubleArticle/DoubleArticle';
 
 class Home extends Component {
     render() {

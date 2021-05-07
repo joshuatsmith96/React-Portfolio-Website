@@ -3,16 +3,13 @@ import './AboutIntro.css';
 
 
 const AboutIntro = (props) => {
-
-    
-
     return (
         <div className="AboutIntro">
-            <div className="aboutDivider">
+            <div className="AboutDivider">
             </div>
-            <div className="aboutDividerText">
-                <h1>About Joshua</h1>
-                <p>Hello this is me and stuff</p>
+            <div className="AboutDividerText">
+                <h1>Joshua Smith</h1>
+                <h2>The Web Developer your company needs!</h2>
             </div>
         </div>
     )
