@@ -3,6 +3,7 @@ import Icons from './Icons';
 import PhoneIcon from '../../Images/smartphoneOff.png';
 import ReactIcon from '../../Images/react.png';
 import LightIcon from '../../Images/lamp.png';
+import '../Intro/Intro.css';
 
 const IntroIcons = () => {
     return (

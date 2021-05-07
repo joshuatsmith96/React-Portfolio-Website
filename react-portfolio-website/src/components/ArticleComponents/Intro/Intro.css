@@ -83,6 +83,12 @@
     }
 }
 
+@media all and (max-width: 600px){
+    .Icons{
+        display: none;
+    }
+}
+
 @media all and (max-width: 415px){
     .IntroIcons{
         justify-content: space-around;
@@ -92,20 +98,15 @@
         border-radius: 0px;
         border-bottom-right-radius: 200px;
         border-bottom-left-radius: 200px;
-        height: 250px;
+        height: 450px;
     }
 
     .dividerText{
         padding: 20px;
     }
 
-    .Icons img{
-        width: 60px;
-        height: 60px;
-    }
-
     .Icons p{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .Intro{
