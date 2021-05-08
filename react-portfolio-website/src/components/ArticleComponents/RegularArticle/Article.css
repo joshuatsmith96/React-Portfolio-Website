@@ -30,3 +30,13 @@
 .Article p{
     font-size: 30px;
 }
+
+@media all and (max-width: 450px) {
+    .Article h1{
+        font-size: 40px;
+    }
+
+    .Article p{
+        font-size: 25px;
+    }
+}
