@@ -24,11 +24,12 @@
 
 .NavList{
     list-style: none;
+    width: 100%;
 }
 
 .NavList li{
     display: inline;
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 6%;
     margin-right: 6%;
     color: black;
@@ -84,9 +85,22 @@
 }
 
 
+
 /************************* MOBILE *************************/
 /* BREAKPOINTS */
-@media all and (max-width: 1220px) {
+@media all and (max-width: 1850px){
+    .logo{
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 1900px){
+    .logo{
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 1500px){
     .MobileNavList ul{
         margin-top: 50px;
     }
@@ -125,6 +139,10 @@
     .navSpacer{
         height: 60px;
     }
+}
+
+@media all and (max-width: 1220px) {
+
 }
 
 @media all and (max-width: 877px) {
