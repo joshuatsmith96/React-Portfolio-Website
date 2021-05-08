@@ -47,24 +47,21 @@
     margin-bottom: 20px;
 }
 
-@media all and (max-width: 1220px) {
+@media all and (max-width: 1900px) {
     .ProjectHolder{
         grid-template-columns: auto auto auto;
     }
 }
 
-@media all and (max-width: 1116px) {
+@media all and (max-width: 1450px) {
     .ProjectHolder{
         grid-template-columns: auto auto;
     }
 }
 
-@media all and (max-width: 762px) {
+@media all and (max-width: 1200px) {
     .ProjectHolder{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0px;
+        grid-template-columns: auto;
         padding: 0px;
     }
 
@@ -73,12 +70,16 @@
     }
 
     .ProjectTile{
-        flex: 1;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
-    .ProjectTile h2{
-        margin-left: 30px;
-        margin-right: 30px;
-        font-size: 20px;
+    .ProjectTile img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .ProjectTile p{
+        font-size: 25px;
     }
 }
