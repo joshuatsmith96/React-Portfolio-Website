@@ -23,7 +23,7 @@
 
 .aboutDivider{
     flex: 1;
-    background-color: rgb(51, 51, 51);
+    background-image: url(../../Images/aboutImage.jpg);
     height: 100%;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;

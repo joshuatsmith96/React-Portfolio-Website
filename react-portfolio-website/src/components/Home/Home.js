@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <Intro/>
-                <Article 
+                <Article
                 Header="A Little Bit About Joshua" 
                 Text="My name is Joshua Smith, and I am an aspiring Front-End Web Developer. I will be graduating with an A.A.S in Web Development,
                 and an A.A.S in Software Development, in March of 2022. "
@@ -18,7 +18,7 @@ class Home extends Component {
                 Header="Skills"/>
                 <Article 
                 Header="Why Hire Joshua" 
-                Text="Aside from the skill set Joshua has gained since going to school and learning many things on his own, he believes that he brings a unique perspective to the table. He has had exposure to many different
+                Text="Aside from the skills listed above, he believes that he brings a unique perspective to the table. He has had exposure to many different
                 types of work to include Customer Service, IT, and Network Interfaces. Joshua also has military experience, which has taught him
                 the meaning of hard work, leadership, organization, respect and timeliness. It is through these combined experiences that make 
                 Joshua a highly sought after candidate. He is an extremely driven individual who works until the job is done."
