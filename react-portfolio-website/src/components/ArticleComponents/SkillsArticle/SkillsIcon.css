@@ -16,14 +16,15 @@
 
 .SkillsIcon h2{
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .imageStyle img{
     border: solid;
     border-color: white;
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     transition: .3s;
 }
