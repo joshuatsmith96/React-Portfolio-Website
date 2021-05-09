@@ -1,2 +1,2 @@
-# New-React-Portfolio-Website
+# React-Portfolio-Website
  Website created using React
