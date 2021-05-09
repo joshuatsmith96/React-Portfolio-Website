@@ -17,6 +17,7 @@
     border-top-right-radius: 10px;
     box-shadow: 1px 1px 6px 1px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .ProjectTile:hover{
@@ -41,10 +42,25 @@
 }
 
 .ProjectTile img{
-    width: 350px;
+    width: 400px;
     height: 350px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.ProjectTile a{
+    font-size: 30px;
+    border:solid;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 100%;
+}
+
+.ProjectTile a:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
 }
 
 @media all and (max-width: 1900px) {
