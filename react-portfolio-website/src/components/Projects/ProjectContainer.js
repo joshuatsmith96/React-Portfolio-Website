@@ -26,7 +26,7 @@ const ProjectContainer = (props) => {
                 will tell you what your total monthly costs are."
                 Link="https://joshuatsmith96.github.io/Budget-Planner-Application/"/>
                 <ProjectTile 
-                Header="Mental Health Website"
+                Header="M.H. Website"
                 Image={Mentalhealth}
                 Text="This website was created using HTML and CSS. I made this website for a
                 class project during my first semester of school. The idea and design was inspired

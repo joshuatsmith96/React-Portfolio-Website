@@ -31,6 +31,7 @@
     margin-bottom: 20px;
     padding: 5px;
     box-shadow: 0px 3px 6px 1px;
+    font-size: 26px;
 }
 
 .ProjectTile p{
@@ -38,12 +39,12 @@
     border-radius: 10px;
     background-color: white;
     margin: 10px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .ProjectTile img{
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 20px;
     border: double;
@@ -64,21 +65,15 @@
     color: white;
 }
 
-@media all and (max-width: 1900px) {
+@media all and (max-width: 1450px) {
     .ProjectHolder{
         grid-template-columns: auto auto auto;
     }
 }
 
-@media all and (max-width: 1450px) {
-    .ProjectHolder{
-        grid-template-columns: auto auto;
-    }
-}
-
 @media all and (max-width: 1200px) {
     .ProjectHolder{
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         padding: 0px;
     }
 
@@ -91,12 +86,13 @@
         margin-right: 5px;
     }
 
-    .ProjectTile img{
-        width: 300px;
-        height: 300px;
-    }
-
     .ProjectTile p{
         font-size: 25px;
+    }
+}
+
+@media all and (max-width: 744px) {
+    .ProjectHolder{
+        grid-template-columns: auto;
     }
 }
