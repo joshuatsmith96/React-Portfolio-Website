@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 600px;
     background-color: white;
     padding-bottom: 50px;
     width: 100%;
@@ -23,7 +23,7 @@
 
 .projectDivider{
     flex: 1;
-    background-image: url(../../Images/projectImage.jpg);
+    background-image: url(../../Images/ProjectImage.jpg);
     height: 100%;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
