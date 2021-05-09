@@ -30,7 +30,7 @@ const ProjectContainer = (props) => {
                 Image={Mentalhealth}
                 Text="This website was created using HTML and CSS. I made this website for a
                 class project during my first semester of school. The idea and design was inspired
-                by my wife who is a Phsyciatric Technician."
+                by my wife who is a Psychiatric Technician."
                 Link="https://joshuatsmith96.github.io/Mental-Health-Website/"/>
                 <ProjectTile 
                 Header="Italian Restaurant"
