@@ -17,7 +17,12 @@ class About extends Component {
                 Korea. While I was stationed here, I was given a leadership position. Leading a group of 6
                 soldiers really taught me what it meant to be a good leader. I left the Army
                 on October, 2018 with an Honorable Discharge."
-                Header2="School Overview"/>
+                Header2="Education Overview"
+                Para2="I currently attend Anoka Technical College in Anoka, MN. My original goal was to get
+                my degree in Software Development, but that all changed when I took my first Intro to Web Development
+                class. Although I love coding of all types, creating websites was a creative outlet
+                for me. Every day after school and work, I would open up VS Code and begin experimenting with
+                "/>
             </div>
         )
     }
